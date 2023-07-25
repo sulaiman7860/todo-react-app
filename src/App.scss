@@ -1,0 +1,19 @@
+@import './sass/bootstrap';
+
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #0096c7;
+    main {
+        flex: 1 0 auto;
+    }
+}
+#inputValue::placeholder {
+color: #00a6fb;
+}
+
+#taxtList {
+    min-height: 200px;
+}
